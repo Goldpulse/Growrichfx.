@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GoldPulse by GrowRich FX</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Cinzel:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0D0D0D;
+      color: #FFD700;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #1a1a1a;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    header h1 {
+      font-family: 'Cinzel', serif;
+      font-size: 1.75rem;
+      margin: 0;
+    }
+    nav a {
+      color: #FFD700;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1629117558729-49a9f184ab67?auto=format&fit=crop&w=1500&q=80') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 5rem 2rem;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin: 1rem 0;
+    }
+    .button {
+      background-color: #FFD700;
+      color: #1C1C1C;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .features, .pricing, .testimonials {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 2rem;
+      justify-content: center;
+    }
+    .card {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      border-radius: 12px;
+      flex: 1 1 280px;
+      max-width: 350px;
+      box-shadow: 0 0 10px rgba(255, 215, 0, 0.1);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    footer {
+      background-color: #1a1a1a;
+      padding: 2rem;
+      text-align: center;
+      color: #aaa;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GoldPulse</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#performance">Performance</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Catch Every Pulse in XAU/USD</h2>
+    <p>GoldPulse is your intelligent trend-following bot powered by GrowRich FX. Built for gold traders who value precision and automation.</p>
+    <a href="#pricing" class="button">Start Trading Smarter</a>
+  </section>
+
+  <section id="about">
+    <h2>What is GoldPulse?</h2>
+    <div class="features">
+      <div class="card">
+        <img src="Screenshot 2025-05-31 221433.png" alt="Logo Overview" />
+        <p>GoldPulse is a trend-following algorithm optimized for XAU/USD. It monitors the market continuously to catch price movements with high accuracy.</p>
+      </div>
+      <div class="card">
+        <img src="Screenshot 2025-05-31 224736.png" alt="Execution Sample" />
+        <p>Delivers real-time signals via MT4/MT5 automation or Telegram alerts. 24/5 coverage of the gold market for all trader types.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="performance">
+    <h2>Live Performance & Backtest</h2>
+    <div class="features">
+      <div class="card">
+        <img src="Screenshot 2025-06-01 131113.png" alt="Live Results" />
+        <p>Backed by consistent results and transparent backtesting. No hype, just real trades.</p>
+      </div>
+      <div class="card">
+        <img src="Screenshot 2025-06-19 112229.png" alt="MT4 Screenshot" />
+        <p>MT4 performance screenshots show how the bot navigates different gold market phases.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <h2>Choose Your Plan</h2>
+    <div class="pricing">
+      <div class="card">
+        <h3>Starter</h3>
+        <p><strong>$49/mo</strong></p>
+        <p>✔ Telegram signals<br>✔ Manual strategy tips<br>✔ Email support</p>
+      </div>
+      <div class="card">
+        <h3>Pro</h3>
+        <p><strong>$99/mo</strong></p>
+        <p>✔ Starter features<br>✔ Full MT4/MT5 Automation<br>✔ Priority support</p>
+      </div>
+      <div class="card">
+        <h3>Elite</h3>
+        <p><strong>$149/mo</strong></p>
+        <p>✔ All features unlocked<br>✔ Dedicated account manager<br>✔ Personal onboarding</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Traders Say</h2>
+    <div class="testimonials">
+      <div class="card">
+        <img src="Screenshot 2025-06-16 124445.png" alt="Client Feedback" />
+        <p><em>“GoldPulse helped me simplify my gold trading completely. The signals are clean and accurate.”</em><br>— R. Desai, Mumbai</p>
+      </div>
+      <div class="card">
+        <p><em>“It nails the XAU trends better than anything I’ve coded myself.”</em><br>— J. Ramires, São Paulo</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Start Trading with GoldPulse</h2>
+    <p>We accept payments via card, PayPal and crypto using NOWPayments.</p>
+    <iframe src="https://nowpayments.io/payment-widget?source=link&width=400&height=200" width="100%" height="200" style="border:none;"></iframe>
+  </section>
+
+  <footer>
+    &copy; 2025 GrowRich FX. All Rights Reserved. | Designed for traders who think in trends.
+  </footer>
+</body>
+</html>
